@@ -50,7 +50,13 @@ nav ul li a{
 .content h1{
     font-size: 150px;
     color:  rgba(68, 68, 207, 0.836);
-    font-weight: 600;
+    font-weight: 600px;
+    transition: 0.5s;
+}
+
+.content h1:hover{
+    -webkit-text-stroke: 2px rgba(68, 68, 207, 0.836);
+     color: transparent;
 }
 
 .content a{
