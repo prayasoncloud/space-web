@@ -75,3 +75,22 @@ video{
     left: 0;
     z-index: -1;
 }
+
+#preloader{
+    background-color: #000;
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    z-index: 100;
+}
+
+
+.preloadimg{
+    transform: rotate(90deg);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 19%;
+    z-index: 1011;
+}
+

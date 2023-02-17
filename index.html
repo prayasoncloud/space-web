@@ -5,6 +5,7 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+<div id="preloader"> <img class="preloadimg" src="images/giphy.gif"> </div>
     <div class="top">
         <video autoplay muted loop plays-inline class="back-video"><source src="videos/back-video.mp4"></video>
         <nav>
@@ -20,6 +21,12 @@
             <a href="https://github.com/prayasincloud/space-web">WebContent</a>
         </div>
     </div>
+    <script>
+        var loader = document.getElementById("preloader");
+        window.addEventListener("load", function(){
+            loader.style.display = "none";
+        })
+    </script>
 </body>
 
 </html>
